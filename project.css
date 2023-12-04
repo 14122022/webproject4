@@ -1,0 +1,87 @@
+.nav{width: 1240px;height: 30px;margin: 3px;padding: 0;}
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: antiquewhite;
+ font-size: 20px;
+}
+
+li {
+ float: left;
+ margin-left: 30px;
+}
+
+li a {
+ display: block;
+ color: rgb(15, 15, 15);
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration-line: none;
+}
+
+  /*For mobile phones: */
+[class*="lo"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .lo1 {width: 8.33%;}
+    .lo2 {width: 16.66%;}
+    .lo3 {width: 25%;}
+    .lo4 {width: 33.33%;}
+    .lo5 {width: 41.66%;}
+    .lo6 {width: 30%;}
+    .lo7 {width: 15%;}
+    .lo8 {width: 66%;}
+    .lo9 {width: 75%;}
+    .lo10 {width: 35%;}
+    .lo11 {width: 91.66%;}
+    .lo12 {width: 100%;}
+    .lo13{width: 8.33%;}
+    .lo14 {width: 16.66%;}
+    .lo15 {width: 35%;}
+    .lo16 {width: 100%;}
+    .lo17 {width: 15%;}
+    .lo18 {width: 50%;}
+    .lo19{width: 15%;}
+    .lo20{width: 50;}
+    .nav {width: 50%;}
+    .mid {width: 45%;}
+    .h2 {width: 45%;}
+    .active {width:45%;}
+    
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .lo1 {width: 8.33%;}
+    .lo2 {width: 16.66%;}
+    .lo3 {width: 25%;}
+    .lo4 {width: 33.33%;}
+    .lo5 {width: 41.66%;}
+    .lo6 {width: 30%;}
+    .lo7 {width: 15%;}
+    .lo8 {width: 66%;}
+    .lo9 {width: 75%;}
+    .lo10 {width: 35%;}
+    .lo11 {width: 91.66%;}
+    .lo12 {width: 100%;}
+    .lo13{width: 8.33%;}
+    .lo14 {width: 16.66%;}
+    .lo15 {width: 35%;}
+    .lo16 {width: 100%;}
+    .lo17 {width: 15%;}
+    .lo18 {width: 50%;}
+    .lo19{width: 15%;}
+    .lo20{width: 50;}
+    .nav {width: 50%;}
+    .mid {width: 45%;}
+    .h2 {width: 45%;}
+    .active {width:45%;}
+  }
+   
+    
+
+  

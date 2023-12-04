@@ -1,0 +1,49 @@
+<html><head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+       .lo6{
+  float: right;
+  background-color: rgb(229, 232, 235);
+  }
+ .lo2{
+  text-align:left;
+  padding:  80px;
+  margin: 15px;
+ }
+  .i1{
+      list-style-type: circle;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    background-color: rgb(240, 242, 243); 
+   
+    font-weight: bold; 
+    font-size: 20px;
+  }
+  </style>
+  <link type="Text/css" rel="stylesheet" href="Leaders_files/project.css">
+</head>
+<body style="background:rgb(240, 242, 243); ">
+  
+<img src="pazl3.jpg" height="550" width="600" class="lo6"><br><br><br><br>
+<script>
+window.onload = function() {
+    shuffleList();
+};
+
+function shuffleList() {
+    var ul = document.getElementById('randomList');
+    for (var i = ul.children.length; i >= 0; i--) {
+        ul.appendChild(ul.children[Math.random() * i | 0]);
+    }
+}
+</script>
+<h2 class="lo2">Team works:</h2>
+<ol id="randomList" class="i1">
+
+
+
+
+<li>Elaf Masad   431000662</li><li>Reham ateeq  431004941</li><li>Ghadi Ahmed  431000654</li><li>Shahad Saud  431001992 </li></ol>
+
+</body></html>
